@@ -1,0 +1,293 @@
+.logo-navbar-1 {
+  -webkit-box-shadow: -3px 3px 0px 0px #bbbdbb;
+  box-shadow: -1px 2px 0px 0px #bbbdbb;
+  color: #3f74de;
+}
+#bg-img {
+  background-image: url(Images/medecin-specialiste-medical-rh_.jpg);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.navbar-nav i {
+  margin: 10px;
+}
+#title-bg {
+  padding-top: 13%;
+  padding-right: 60%;
+  line-height: 2em;
+  color: white;
+  position: relative;
+}
+#arriere-plan {
+  position: absolute;
+  width: 100vw;
+  height: 80vh;
+  background-color: #3d6fac;
+  opacity: 50%;
+}
+.btn-contact_us {
+  position: relative;
+}
+.btn-section1 {
+  position: relative;
+  margin-top: 1em;
+  min-width: 15%;
+  margin-right: 10px;
+}
+.btn_contact-section1 {
+  background-color: #2bde97;
+}
+.btn_learn-section1 {
+  background-color: white;
+}
+
+.fa-phone {
+  margin: 10px;
+}
+.fa-suitcase-medical {
+  margin: 10px;
+}
+.img-card-section1 {
+  margin-top: -13%;
+}
+.text-section3 {
+  padding-right: 50%;
+}
+
+.bg-section {
+  background-color: #EFF6FE;
+}
+.banner-infos {
+  height: 15em;
+  align-items: center;
+}
+.fa-hospital,
+.fa-user-doctor,
+.fa-people-group,
+.fa-thumbs-up,
+.fa-ranking-star {
+  color: #2b6fed;
+  font-size: 30px;
+  border-radius: 15%;
+}
+.title-section-3 {
+  padding-right: 40%;
+}
+.title-section-3,
+.title-section5 {
+  color: #253452;
+}
+
+.hospital-card {
+  color: white !important;
+  background-color: #2b6fed;
+}
+.btn-emergency-Trt {
+  background-color: #2b6fed;
+  color: white;
+  font-size: 25px;
+  border-radius: 15%;
+}
+.btn-stethoscope {
+  color: #2b6fed;
+  font-size: 25px;
+  border-radius: 15%;
+}
+.btn-section5 {
+  background-color: #f7fbff;
+}
+.title-section-7 {
+  padding-right: 30%;
+  color: #253452;
+  font-size: 25px;
+  border-radius: 15%;
+}
+.btn-watchvid {
+  width: 8vh;
+  height: 8vh;
+}
+.bg-section-form {
+  background-color: #e5f9ff;
+}
+.text-left-form {
+  padding-right: 60%;
+}
+.col-3.d-flex.flex-column i.fa-solid,
+.col-3.d-flex.flex-column i.fa-regular {
+  color: #2b6fed;
+}
+.bg-form {
+  background-color: white;
+  margin-top: -42%;
+}
+.logo-partners {
+  width: 25vh;
+}
+.bg-section-partners {
+  background-color: white;
+}
+.bg-section-socialmedia {
+  background-color: #eff6fe;
+}
+.btn-socialmedia {
+  border-radius: 50%;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+.btn-socialmedia:hover {
+  background-color: #2b6fed;
+}
+.btn-socialmedia:hover a {
+  color: white !important;
+}
+.bg-heightsocialmedia {
+  height: 150px;
+}
+.footer-link {
+  white-space: nowrap;
+}
+.footer-btn-phone {
+  color: white;
+  background-color: #2b6fed;
+}
+.medkit_logo {
+  width: 30vmin;
+}
+.d-lg-flex.flex-lg-column.offset-1 .fa-solid,
+.d-lg-flex.flex-lg-column.offset-1 .fa-regular {
+  color: #2b6fed;
+}
+/* Mobile */
+@media screen and (max-width: 767px) {
+  #title-bg {
+    padding-right: 0%;
+    padding-top: 5%;
+    font-size: small;
+  }
+  .mobile-button {
+    display: flex;
+  }
+  .btn_learn-section1 {
+    width: 100%;
+    margin: 0px;
+  }
+  .mobile-margin {
+    margin: 0;
+  }
+  .title-section-3 {
+    padding-right: 0;
+  }
+  #bg-img {
+    background-image: url(Images/medecin-specialiste-medical-rh_.jpg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .btn_contact-section1 {
+    background-color: #2bde97;
+    width: 100%;
+    margin: 0;
+  }
+
+  #arriere-plan {
+    position: absolute;
+    width: 100vw;
+    height: 40vh;
+    background-color: #3d6fac;
+    opacity: 50%;
+  }
+  .img-card-section1 {
+    margin-top: 0;
+  }
+  .text-left-form {
+    padding-right: 0;
+  }
+  .bg-form {
+    background-color: white;
+    margin-top: 0;
+  }
+  .medkit_logo {
+    width: 35vmin;
+  }
+  .footer-mobile {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-mobile-p {
+    margin: 0!important;
+    margin: 1em 0px 0px 0px!important; /* top | right | bottom | left */
+    text-align: center;
+  }
+  .banner-infos {
+    height: 15em;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .partners-mobile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .mobile-footer-social {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .mobile-footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col-mobile {
+    flex-direction: column;
+    margin-left: 0 !important;
+  }
+  .mobile-footer-1 {
+    margin-top: 1em!important;
+  }
+  
+}
+
+/* Tablette */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .img-card-section1 {
+    margin-top: 0;
+  }
+  #title-bg {
+    padding-top: 5%;
+    padding-right: 40%;
+    line-height: 2em;
+    color: white;
+    position: relative;
+  }
+  #bg-img {
+    background-image: url(Images/medecin-specialiste-medical-rh_.jpg);
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #arriere-plan {
+    position: absolute;
+    width: 100vw;
+    height: 95vh;
+    background-color: #3d6fac;
+    opacity: 50%;
+  }
+  .btn-watchvid {
+    width: 15vh;
+    height: 15vh;
+  }
+  .title-section-7 {
+    padding-right: 0;
+  }
+  .text-left-form {
+    padding-right: 0;
+  }
+
+  .bg-form {
+    margin-top: 0;
+  }
+}

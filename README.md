@@ -2,7 +2,8 @@
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Starting</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">See the project</a>
 </p>
 <div align="center" id="top"> 
   <img width="1498" alt="Capture d’écran 2024-03-03 à 01 44 43" src="https://github.com/DavidChatton/Project-Medkit/assets/68169573/082e387d-943e-4a6c-851e-27b6efc30e3d">
@@ -27,4 +28,6 @@ $ git clone https://github.com/DavidChatton/Project-Medkit
 $ cd Project-Medkit
 
 ```
+<h2> :eyes: See the project </h2>
+You can also see this project on this link : https://project-medkit.davidchatton-dev.fr/
 
